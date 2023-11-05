@@ -1,0 +1,429 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+/* Header section starts */
+/* Nav bar starts */
+#nav{
+    /* border: 1 px solid black; */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+   
+}
+#nav #nav-one{
+    padding-right: 400px;
+    font-size: 1.1rem;
+}
+#nav a{
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+#nav #nav-one::first-letter{
+
+    color: red;
+}
+#nav #home{
+    color: red;
+}
+/* Nav bar ends */
+/* Nav-2- starts */
+#nav-2{
+    /* border: 1px solid black; */
+    height: 550px;
+    width: 100%;
+    background-image: url(./1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#nav-2-icons{
+   font-size:x-small;
+    margin: auto; 
+}
+/* Nav-2- ends */
+/* Header section ends */
+/* Hero section starts */
+#providing{
+    margin-top: 30px;
+    padding-left: 670px;
+}
+#Best{
+    font-size: 1.5rem;
+    margin-top: 10px;
+   margin-left: 620px;
+}
+#icons{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+    font-size:26px;
+}
+.icon-1{
+    border-radius: 100px;
+    background-color: red;
+}
+#gear{
+    padding-left: 11px;
+    padding-top: 10px;
+    color: white;
+}
+#leaf{
+    padding-left: 11px;
+    padding-top: 10px;
+    color: white;
+
+}
+#heart{
+    padding-left: 12px;
+    padding-top: 13px;
+    color: white;
+
+}
+#desktop{
+    padding-left: 10px;
+    padding-top: 13px;
+    color: white;
+
+}
+#creative{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#main-features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 1.5rem;
+}
+#L11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+#L14{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#LD-img{
+    margin-top: 80px;
+    height: 350px;
+    width: 100%;
+   display: flex;
+    
+}
+#lady-img{
+   
+    height: 350px;
+    width: 50%;
+    background-image: url(./6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#desktop-img{
+    
+    height: 350px;
+    width: 50%;
+    background-image: url(./5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+#icons-2{
+
+    
+    height: 120px;
+    width: 100%;
+    margin-top: 50px;
+     display: flex;
+    align-items: center;
+    justify-content :space-around;
+
+     
+} 
+.plane-icon{
+
+    
+    height: 160px;
+    width: 33%;
+    display: flex;
+    font-size: 1.1rem;
+   
+    
+    
+
+}
+
+.structure{
+ 
+ height: 50px;
+ width: 50px;
+ border-radius: 100%;
+ background-color: red;
+display: flex;
+align-items: center;
+justify-content: center;
+ 
+}
+#struc-1{
+    margin-top: 10px;
+margin-left: 100px;
+}
+.plane-icon p{
+    margin-left: 10px;
+    font-size: 1.1rem;
+}
+.plane-icon em{
+    margin-left: 10px;
+    font-size: 0.85rem;
+}
+#struc-2{
+    margin-top: 10px;
+    margin-left: 19px;
+}
+#struc-3{
+    margin-top: 10px;
+    margin-left: 19px;
+
+}
+#red-box{
+    border: 1px solid white;
+    height: 200px;
+    width: 100%;
+    background-color: orangered;
+}
+#redbox-text-1{
+    
+    margin-top: 40px;
+   text-align: center;
+   font-size: 1.1rem;
+   color: white;
+}
+#red-box p{
+    text-align: center;
+    color: white;
+}
+#red-box span{
+    border-radius: 40px;
+}
+
+#parent-radius{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.red-box-radius{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: white;
+}
+#last-box-text{
+    
+    height: 80px;
+}
+#people{
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+}
+#saying{
+    margin-top: 15px;
+    margin-left: 675px;
+    font-size: 1.3rem;
+    text-align: center;
+    
+}
+#four-last-img{
+
+    margin-top: 50px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+#man-one{
+    
+    height: 150px;
+    width: 150px;
+    background-image: url(./man1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#man-two{
+    
+    height: 150px;
+    width: 150px;
+    background-image: url(./man3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#man-three{
+    
+    height: 150px;
+    width: 150px;
+    background-image: url(./man2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#man-four{
+    
+    height: 150px;
+    width: 150px;
+    background-image: url(./man4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.john{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+#footer-one{
+
+    background-color:#222222;
+    color: white;
+    height: 70px;
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.multi{
+    margin-top: 50px;
+}
+#footer-two{
+    background-color: #222222;
+    height: 265px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.foot{
+    margin-top: 50px;
+    height: 210px;
+    width: 480px;
+
+    
+
+
+}
+.foot p{
+   margin-left: 20px;
+   color: #e2e2e2;
+}
+.foot-logo{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border-radius: 30px;
+    background-color: black;
+    font-size: 30px;
+   
+   
+   
+}
+.foot-logo i{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+#house-logo{
+    font-size: 20px;
+}
+#house-logo-one{
+    font-size: 20px;
+}
+#house-logo-two{
+    font-size: 20px;
+}
+#footer-three{
+
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: #e2e2e2;
+}
+#end-one{
+      
+    margin-left: 600px;
+}
+
+/* Hero section ends */
